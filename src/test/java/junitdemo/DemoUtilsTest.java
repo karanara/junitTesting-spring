@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.time.Duration;
 import java.util.List;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class DemoUtilsTest {
 
 	DemoUtils demoUtils;
